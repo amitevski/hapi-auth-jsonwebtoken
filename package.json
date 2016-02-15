@@ -1,8 +1,11 @@
 {
     "name": "hapi-auth-jsonwebtoken",
     "description": "JSON Web Token (JWT) authentication plugin",
-    "version": "0.2.3",
+    "version": "0.3.0",
     "author": "Boketto <info@boket.to>",
+    "contributors": [
+        {"name": "Aco Mitevski", "url": "http://twitter.com/acomitevski", "email": "aco.mitevski+github@gmail.com"}
+      ],
     "repository": "git://github.com/boketto/hapi-auth-jsonwebtoken",
     "main": "index",
     "keywords": [
@@ -19,7 +22,7 @@
     "dependencies": {
         "boom": "2.5.x",
         "hoek": "^2.10.x",
-        "jsonwebtoken": "^1.1.2"
+        "jsonwebtoken": "5.5.4"
     },
     "peerDependencies": {
         "hapi": ">=8.x.x"
